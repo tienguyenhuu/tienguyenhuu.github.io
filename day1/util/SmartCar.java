@@ -1,4 +1,4 @@
-package day1.util;
+package util;
 
 public class SmartCar {
   public void run() {

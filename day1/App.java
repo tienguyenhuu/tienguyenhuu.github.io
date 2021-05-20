@@ -1,6 +1,6 @@
-package day1;
 
-import day1.util.SmartCar;
+
+import util.SmartCar;
 
 public class App {
   public static int add(int a, int b) {
