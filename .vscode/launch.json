@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AppEmail",
+            "request": "launch",
+            "mainClass": "bt.AppEmail",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RegexExample2",
+            "request": "launch",
+            "mainClass": "bt.RegexExample2",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Apps",
+            "request": "launch",
+            "mainClass": "index.Apps",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Appp",
+            "request": "launch",
+            "mainClass": "bt.Appp",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "bt.App",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Apps",
+            "request": "launch",
+            "mainClass": "Apps",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch logic",
+            "request": "launch",
+            "mainClass": "logic",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
             "name": "Launch Math",
             "request": "launch",
             "mainClass": "Math",

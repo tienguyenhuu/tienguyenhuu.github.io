@@ -40,7 +40,7 @@ public class Math {
   public float average(int[] numbers) {
     float tbc;
     float tong=0;
-    for ( int i = 0; i< numbers.length; tong = tong + numbers[i++]);
+    for ( int i = 0);
     tbc= tong/(numbers.length) ;
     return tbc;
   }
