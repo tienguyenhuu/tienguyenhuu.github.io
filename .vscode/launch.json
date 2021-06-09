@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppPalindrome",
+            "request": "launch",
+            "mainClass": "palindrome.AppPalindrome",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppPalindrome",
+            "request": "launch",
+            "mainClass": "Palindrome.AppPalindrome",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
             "name": "Launch AppEmail",
             "request": "launch",
             "mainClass": "email.AppEmail",
