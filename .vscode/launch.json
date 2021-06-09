@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AppEmail",
+            "request": "launch",
+            "mainClass": "email.AppEmail",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
             "name": "Launch AppBMI",
             "request": "launch",
             "mainClass": "bmi.AppBMI",

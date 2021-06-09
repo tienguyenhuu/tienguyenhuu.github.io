@@ -1,10 +1,10 @@
-package bt;
+package email;
  
 import java.util.regex.Pattern;
 import java.util.Scanner;
  
 public class Email{
-    public void getEmail(){
+    public static void getEmail(){
         Scanner input = new Scanner(System.in);
         while(true){
             String EMAIL_PATTERN = 

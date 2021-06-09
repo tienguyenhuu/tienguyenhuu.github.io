@@ -3,7 +3,7 @@ package bmi;
 import java.util.Scanner;
 
 public class BMI {
-    public void getWeightHeight()
+    public static void getWeightHeight()
      {
       Scanner input = new Scanner(System.in);   
         while (true) 
