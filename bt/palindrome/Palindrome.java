@@ -12,11 +12,11 @@ public class Palindrome {
             for (int i = palindrome.length() -1 ; i >= 0 ; i-- )
                 reverse = reverse + palindrome.charAt(i);
                 if(palindrome.equals(reverse)){
-                    System.out.println(reverse + " là từ đối xứng" );
+                    System.out.println(reverse + " là chuỗi đối xứng" );
                     continue;
                 }
                 else{
-                    System.out.println(reverse + " không phải là từ đối xứng");
+                    System.out.println(reverse + " không phải là chuỗi đối xứng");
                     break;
                 }
     }
