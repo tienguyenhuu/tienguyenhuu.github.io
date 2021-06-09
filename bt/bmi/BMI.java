@@ -1,4 +1,4 @@
-package bt;
+package bmi;
 
 import java.util.Scanner;
 
