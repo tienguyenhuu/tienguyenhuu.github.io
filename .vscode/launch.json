@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AppNumber",
+            "request": "launch",
+            "mainClass": "doanso.AppNumber",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Number",
+            "request": "launch",
+            "mainClass": "doanso.Number",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
             "name": "Launch test",
             "request": "launch",
             "mainClass": "test",
