@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AppFliter",
+            "request": "launch",
+            "mainClass": "ltb.AppFliter",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
             "name": "Launch AppNumber",
             "request": "launch",
             "mainClass": "doanso.AppNumber",
