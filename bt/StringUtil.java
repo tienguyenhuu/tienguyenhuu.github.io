@@ -4,24 +4,33 @@ public class StringUtil {
 /* Kiểm tra strB có trong strA hay không*/
     public static void isContain() {
         Scanner input = new Scanner(System.in);
-            System.out.println("Nhập vào strA");
+        System.out.println("Nhập vào strA");
         String StrA = input.nextLine();
         System.out.println("Nhập vào strB");
         String StrB = input.nextLine();
-        if(StrA.contains(StrB) == true){
-            System.out.println(StrB+ " Có trong " + StrA);
+        final int length =StrB.length();
+        if(length == 0) {
+            System.out.println("true");
         }
-        else{
-            System.out.println(StrB+ " Không có trong " + StrA);
-        }
-        }
+            final char firstLo = Character.toLowerCase(StrB.charAt(0));
+            final char firstUp = Character.toUpperCase(StrB.charAt(0));
+            for(int i = StrA.length() - length; i >= 0; i--) {
+                final char ch = StrA.charAt(i);
+                if(ch != firstLo && ch != firstUp)
+                continue;
+                if(StrA.regionMatches(true, i, StrB, 0, length))
+                System.out.println("B có chứa A");
+            }
+        
+    }
     /*Nghịc đảo chuỗi */
     public static void reverse(){
         Scanner input = new Scanner(System.in);
         System.out.println("Nhập vào chuỗi cần nghịc đảo");
         String rvse = input.nextLine();
-        String reverse = new StringBuffer(rvse).
-        reverse().toString();
+        String reverse ="";
+        for(int i = rvse.length() - 1 ; i>=0 ; i--)
+        reverse = reverse + rvse.charAt(i);
         System.out.println("Nghịc đảo thành "+ reverse);
     }
     /*Vị trí chuỗi */
@@ -80,13 +89,7 @@ public class StringUtil {
         System.out.println("Nhập vào đoạn văn");
         String paragraph = input.nextLine();
         String[] words = paragraph.split( " " );
-        while (true){
-            for( int i = 0 ; i <words.length; i++){
-                int count = 1;
-                System.out.println(words[i]+" "+count);
-            }
-            break;
         }
-    }
+    
 }
     
