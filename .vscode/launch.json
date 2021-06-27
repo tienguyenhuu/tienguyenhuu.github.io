@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LineItem",
+            "request": "launch",
+            "mainClass": "Library.LineItem",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Library.App",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "WebBh.App",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "ClbBD.App",
