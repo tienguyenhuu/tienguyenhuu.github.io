@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NameClass",
+            "request": "launch",
+            "mainClass": "NameClass",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppName",
+            "request": "launch",
+            "mainClass": "AppName",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Apsp",
+            "request": "launch",
+            "mainClass": "Apsp",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pairing",
+            "request": "launch",
+            "mainClass": "Pairing",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "WebBhtk.App",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
             "name": "Launch LineItem",
             "request": "launch",
             "mainClass": "Library.LineItem",

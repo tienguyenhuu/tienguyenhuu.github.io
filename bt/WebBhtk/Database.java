@@ -1,4 +1,4 @@
-package WebBh;
+package WebBhtk;
 
 public class Database {
     public Repository<Customer> customerRepo;  //Rất giống với ArrayList<Customer>
