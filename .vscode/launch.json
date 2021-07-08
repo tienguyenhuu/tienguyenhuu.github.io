@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AppSp",
+            "request": "launch",
+            "mainClass": "AppSp",
+            "projectName": "java_75cfcf7b"
+        },
+        {
+            "type": "java",
             "name": "Launch NameClass",
             "request": "launch",
             "mainClass": "NameClass",

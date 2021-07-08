@@ -1,13 +1,13 @@
 {
     "java.project.sourcePaths": [
+        "hackathon",
         "day6",
         "day5",
         "day4",
         "day3",
         "day2",
         "day1/utill",
-        "day1/util",
         "bt",
-        "hackathon"
+        "day11/index"
     ]
 }
