@@ -1,5 +1,3 @@
-
-
 public class Sp {
     private long id;
     private String name;
@@ -56,5 +54,7 @@ public class Sp {
     }
     public void setamountSale(long amountSales) {
         this.amountSales = amountSales;
-    }
+    }   
+
+    
 }

@@ -26,6 +26,12 @@ public class AppSp {
         System.out.println("Danh sách có giá trên một triệu");
         sps.stream().filter(Sp -> Sp.getprice() > 1000000)
         .forEach(Sp -> System.out.println(Sp));
+
+        System.out.println("Danh sách hàng hóa và tổng tiền bán đươc");
+        sps.stream().map(Sp -> Sp.getname())
+        .forEach(Sp -> System.out.println("/%n"+ Sp));
+        sps.stream().map(Sp -> Sp.getamountSale())
+        .forEach(Sp -> System.out.println(Sp));
     }
     public static void show(ArrayList<Sp> sps) {
         sps.forEach((sp) -> {System.out.println(sp);});
